@@ -7,11 +7,37 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    .parallax {
+      /* The image used */
+      background-image: url("images/img_parallax.jpg");
 
-    <title>Hello, world!</title>
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+
+    <title>Illustrations</title>
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+      <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+      <div class="parallax"></div>
+
+      <div style="height:1000px;background-color:red;font-size:36px">
+      Scroll Up and Down this page to see the parallax scrolling effect.
+      This div is just here to enable scrolling.
+      Tip: Try to remove the background-attachment property to remove the scrolling effect.
+      </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
