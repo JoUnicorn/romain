@@ -132,7 +132,7 @@ a:focus {
 /* Hero */
 
 #hero {
-  background-image: url(../img/paralax.jpg);
+  background-image: url(../img/paralax.png);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
