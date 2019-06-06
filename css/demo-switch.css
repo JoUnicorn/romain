@@ -1,11 +1,3 @@
-.demo-switch {
-	--link-text: #6d6d6d;
-	--link-text-hover: #fff;
-	--body-text: #f0f0f0;
-	--body-text-alt: #878787;
-	--body-bg: #494949;
-	--content-font: "Helvetica Neue", Arial, sans-serif;
-}
 
 /* Content */
 .content {
@@ -112,5 +104,3 @@
 		font-size: 1.5em;
 	}
 }
-    
-
