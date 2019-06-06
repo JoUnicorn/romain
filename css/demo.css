@@ -5,7 +5,11 @@
 }
 
 body {
+	--body-text: #f1d51d;
+	--body-text-alt: #525252;
 	--body-bg: #3d3d3d;
+	color: #f1d51d;
+	color: var(--body-text);
 	background: #3d3d3d;
 	background: var(--body-bg);
 	overflow-x: hidden;
